@@ -26,7 +26,7 @@ server.use(router); // Routes on port 3000
 
 // Create HTTPS server
 https.createServer(options, server).listen(8443, () => {
-  console.log("API available at https://localhost:8443");
+  console.log("API disponível nova versão em https://localhost:8443");
 });
 
 // Optionally, create a fallback HTTP server for redirection
