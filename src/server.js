@@ -27,7 +27,7 @@ server.use(router); // Routes on port 3000
 // Create HTTPS server
 https.createServer(options, server).listen(8443, () => {
   console.log("Boas-vindas à API do AllBooks.")
-  console.log("Acesse essa API em https://localhost:8443");
+  console.log("Disponível em https://localhost:8443");
 });
 
 // Optionally, create a fallback HTTP server for redirection
